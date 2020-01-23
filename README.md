@@ -15,7 +15,7 @@ The Python script will ingest a data variable file (can be JSON or YAML format) 
 After you have created your python virtual environment you can clone and install the requirements.
 
 ```shell
-git clone git@bitbucket.org:davidban77/introduction-to-network-automation.git
+git clone git@bitbucket.org:packetflow/introduction-to-network-automation.git
 cd introduction-to-network-automation
 pip intstall -r requirements.txt
 ```
