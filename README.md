@@ -69,3 +69,32 @@ interface Management1
 !
 !
 ```
+
+## Run within a docker container development environment
+
+There are 2 methods you can use to run the application inside a container-based development environment.
+
+### Standalone container
+
+You can build the `Dockerfile.standalone` image which will use the `continuumio/miniconda3` image, copy the projects files to `/app` directory in the container, with the execption of the paths indicated in the `.dockerignore` file, and install the project python dependencies.
+
+### VS Code based container
+
+Using the [Visual Studio Code Editor](https://code.visualstudio.com/) you can automatically setup the docker development environment. You just have to do the following
+
+*Pre-Requisites*:
+
+- Have [Remote-Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) installed.
+- And also recommended the [Docker extension](https://code.visualstudio.com/docs/azure/docker#_install-the-docker-extension) for managing the containers.
+
+- Clone the repository
+
+```shell
+> git clone git@bitbucket.org:packetflow/introduction-to-network-automation.git
+```
+
+- Open a new VS Code window and select **Remote-Containers: Open in a container**, and select the directory where the project was cloned.
+
+This will launch a new window where it will show output of VS Code building the image with the specifications dictated on `Dockerfile` and the instructions on the `.devcontainer/devcontainer.json`.
+
+By then you should have a fully functional development environment for this project.
