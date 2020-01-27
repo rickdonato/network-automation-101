@@ -92,10 +92,10 @@ You can build the `Dockerfile.standalone` image which will use the `continuumio/
 
 ```shell
 > cd introduction-to-network-automation
-> docker build -t example/intro-netautomation:latest -f Dockerfile.standalone
+> docker build -t example/intro-netautomation:latest -f Dockerfile.standalone .
 ```
 
-This will use the contents of `Dockerfile.standalone` to create the image.
+This will use the contents of `Dockerfile.standalone` to create the image. Don't forget the `.` at the end of the command!
 
 - Spin up and connect to container
 
