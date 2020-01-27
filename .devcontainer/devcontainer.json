@@ -1,0 +1,10 @@
+{
+	"name": "Existing Dockerfile",
+	"context": "..",
+	"dockerFile": "../Dockerfile",
+	"settings": {
+		"terminal.integrated.shell.linux": null
+	},
+	"postCreateCommand": "apt-get update && apt-get install -y git && pip install -r requirements.txt && mkdir build/",
+	"extensions": []
+}
