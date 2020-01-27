@@ -80,12 +80,15 @@ You can build the `Dockerfile.standalone` image which will use the `continuumio/
 
 ### VS Code based container
 
-Using the [Visual Studio Code Editor](https://code.visualstudio.com/) you can automatically setup the docker development environment. You just have to do the following
-
-*Pre-Requisites*:
+**Pre-Requisites**:
 
 - Have [Remote-Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) installed.
 - And also recommended the [Docker extension](https://code.visualstudio.com/docs/azure/docker#_install-the-docker-extension) for managing the containers.
+
+**Procedure**:
+
+Using the [Visual Studio Code Editor](https://code.visualstudio.com/) you can automatically setup the docker development environment. You just have to do the following
+
 
 - Clone the repository
 
