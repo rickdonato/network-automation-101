@@ -1,16 +1,21 @@
-# Configurator
+# Introduction to Network Automation
+This repo contains the code and files for the following:
+* [Configurator](https://TBC) - Python example for generating configuration based on JSON or YAML input. 
+* [Docker Developement Environment](https://TBC) - Docker files for creating a developement environment, and connecting to VSCode.
+
+## Configurator
 
 The purpose of this sample project is to show the use of **Python and Jinja2** to generate network devices configuration from JSON or YAML input.
 
 The Python script will ingest a data variable file (can be JSON or YAML format) and will render a configuration file based on a template in the `templates/` folder.
 
-## Requirements
+### Requirements
 
 - Python 3.6 or newer (preferably create a virtual environment, for information on creating a virtual environment -> [Python Virtual Environments a Primer](https://realpython.com/python-virtual-environments-a-primer/))
 - [PyYAML](https://pypi.org/project/PyYAML/): Python YAML parser.
 - [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/): Python template engine.
 
-## Initialization
+### Initialization
 
 After you have created your python virtual environment you can clone and install the requirements.
 
@@ -20,7 +25,7 @@ cd introduction-to-network-automation
 pip install -r requirements.txt
 ```
 
-## Example
+### Example
 
 Let's say we have the following variable file: `data/interfaces_vars.json`
 
@@ -69,11 +74,9 @@ interface Management1
 !
 !
 ```
-
-## Run within a docker container development environment
+## Docker Development Environment
 
 There are 2 methods you can use to run the application inside a container-based development environment.
-
 For this you will to have Docker installed, and if you want to follow the VS Code method you will Visual Studio Code and its extensions. See pre-requisites.
 
 ### Standalone container
@@ -107,7 +110,7 @@ This will run and login into the container. You now have access to python, conda
 
 **NOTE**: Work done on the container WILL be erased when you DELETE the container, but you don't have to worry to STOP the container - changes will still be there. That is why is highly recommended to use *git* or another SCM system to work with this type of project.
 
-### VS Code based container
+### VS Code Based Container
 
 **Pre-Requisites**:
 
