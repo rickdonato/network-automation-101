@@ -1,0 +1,13 @@
+!
+interface Vlan177
+  description Lan In-Band Network
+  ip address 10.77.1.68 255.255.255.0
+  load-interval 5
+!
+interface Management1
+  description lab01 - Eth100/1/37
+  ip address 10.17.17.177 255.255.255.0
+  load-interval 5
+  no shutdown
+!
+!
