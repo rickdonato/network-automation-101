@@ -17,7 +17,7 @@ After you have created your python virtual environment you can clone and install
 ```shell
 git clone git@bitbucket.org:packetflow/introduction-to-network-automation.git
 cd introduction-to-network-automation
-pip intstall -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Example
