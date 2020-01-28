@@ -56,7 +56,7 @@ The script uses `sys.argv` to get the arguments from the command line and use it
 Now lets run the script:
 
 ```shell
-python configurator.py data/interfaces_vars.json templates/cisco_interfaces.j2
+python3.6 configurator.py data/interfaces_vars.json templates/cisco_interfaces.j2
 ```
 
 This will create a Cisco configuration file with the interfaces information.
@@ -76,6 +76,8 @@ interface Management1
 !
 !
 ```
+---
+
 ## Docker Development Environment
 
 There are 2 methods you can use to run the application inside a container-based development environment.
