@@ -1,6 +1,8 @@
 # Introduction to Network Automation
 This repo contains the code and files for the following:
+
 * [Configurator](https://TBC) - Python example for generating configuration based on JSON or YAML input. 
+
 * [Docker Developement Environment](https://TBC) - Docker files for creating a developement environment, and connecting to VSCode.
 
 ## Configurator
