@@ -16,6 +16,8 @@ The Python script will ingest a data variable file (can be JSON or YAML format) 
 * [PyYAML](https://pypi.org/project/PyYAML/): Python YAML parser.
 * [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/): Python template engine.
 
+Note: This example will use a virtualenv. To learn more about virtual environments see:   [Python Virtual Environments a Primer](https://realpython.com/python-virtual-environments-a-primer/)
+
 ### Initialization
 
 ```shell
