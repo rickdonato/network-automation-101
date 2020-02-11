@@ -21,8 +21,21 @@ The Python script will ingest a data variable file (can be JSON or YAML format) 
 After you have created your python virtual environment you can clone and install the requirements.
 
 ```shell
+# clone code
 git clone git@bitbucket.org:packetflow/introduction-to-network-automation.git
 cd introduction-to-network-automation
+
+# install virtualenv
+sudo apt-get update
+sudo apt-get install python3-pip
+sudo pip3 install virtualenv
+
+# create virtualenv
+virtualenv -p /usr/bin/python3 venv
+source ./venv/bin/activate
+
+# install deps in virtualenv
+pip3 install -r ./requirements.txt
 pip install -r requirements.txt
 ```
 
