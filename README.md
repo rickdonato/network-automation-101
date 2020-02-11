@@ -12,13 +12,11 @@ The Python script will ingest a data variable file (can be JSON or YAML format) 
 
 ### Requirements
 
-* Python 3.6 or newer (preferably create a virtual environment, for information on creating a virtual environment -> [Python Virtual Environments a Primer](https://realpython.com/python-virtual-environments-a-primer/))
+* Python 3.6
 * [PyYAML](https://pypi.org/project/PyYAML/): Python YAML parser.
 * [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/): Python template engine.
 
 ### Initialization
-
-After you have created your python virtual environment you can clone and install the requirements.
 
 ```shell
 # clone code
@@ -36,7 +34,6 @@ source ./venv/bin/activate
 
 # install deps in virtualenv
 pip3 install -r ./requirements.txt
-pip install -r requirements.txt
 ```
 
 ### Example
