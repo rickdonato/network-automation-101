@@ -1,4 +1,4 @@
-# Introduction to Network Automation
+# Network Automation 101
 
 Python example for generating configuration based on JSON or YAML input.
 
