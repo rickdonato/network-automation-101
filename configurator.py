@@ -43,7 +43,7 @@ def main():
     configuration_data = template.render(data)
 
     # Save the configuration to output file
-    output_file = "data/conf.txt"
+    output_file = "build/conf.txt"
     with open(output_file, "w") as f:
         f.write(configuration_data)
 
