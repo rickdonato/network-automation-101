@@ -2,8 +2,6 @@
 
 Python example for generating configuration based on JSON or YAML input.
 
-For an example of this application running in a Docker development environment, please see [Python Development with Docker and VSCode](https://bitbucket.org/packetflow/python-development-with-docker-and-vscode/src/master/)
-
 ## Configurator
 
 The purpose of this sample project is to show the use of **Python and Jinja2** to generate network devices configuration from JSON or YAML input.
